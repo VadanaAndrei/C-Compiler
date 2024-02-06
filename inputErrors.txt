@@ -1,0 +1,38 @@
+INT prod(int x,int y)
+{
+    char pr='a';
+
+    return 1;
+    ??return 1.0;
+}
+
+
+start 
+
+   ?? const int x=3;
+   ?? x=5;
+    
+    ??s=3;
+    ??int c=sum(3,5);
+
+    ??float var=2.0;
+    ??float var;
+
+    ??int i[5]={1,2,3,4,5};
+    ??i[6]=5;
+    ??i[3]=true;
+
+   ??float f[3]={1,2.0};
+
+    int i;
+    float j;
+    ??int op1=3+5.0;    
+    ??int op2=i+j;
+    ??i=j+3.0;
+
+    ??int call=prod(j+3.5,i);
+
+    ??Eval(i+@prod(i,i));
+    ??TypeOf(i+@prod(i,i));
+
+finish

@@ -1,0 +1,77 @@
+CLASS lfac
+{
+  int x;
+  FLOAT prod(int x, int y)
+  {
+    int d;
+    return 1.0;
+  }
+};
+
+
+int varGlobal;
+float flGlobal=5.0;
+
+
+INT sum(int x, int y)
+{
+  int er;
+  return 0;
+}
+
+
+start
+
+  int i[5]={1,2,3};
+  bool b[5]={true, false, false};
+  char c[5]={'a','b','d'};
+  float f[5]={7.4};
+  string s[5]={"abc"};
+  int mat[3][4];
+  char aux='s';
+
+
+  const int a=15;
+  const int w=12;
+  int j,k;
+  float y;
+  float g = lfac.prod(j,k);
+
+  j=sum(i[1],a);
+
+  @
+
+  if(f[4]<5)
+  {
+    ;
+  }
+
+  while(j>7 || k<6)
+  {
+    ;
+  }
+
+  for(j=1;j<=6;j++)
+  {
+    if(k>2 && k!=3)
+    {
+      ;
+    }
+  }
+
+  @
+
+  int arr = 5*4+2+(-7)+(7*8)+(-12);
+
+  float apelprod = prod(j+k*3,arr/i[2]);
+  float apelConstants=prod(a,w);
+
+  TypeOf(10.3);
+  TypeOf(arr+50);
+  TypeOf(aux);
+
+  Eval(5);
+  Eval(arr);
+  Eval(arr+10+(-15*2));
+
+finish

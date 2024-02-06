@@ -1,0 +1,30 @@
+Symbol table for variables
+const: 0 | name: x | type: int | value: null | domain: class lfac
+const: 0 | name: d | type: int | value: null | domain: function prod
+const: 0 | name: varGlobal | type: int | value: null | domain: global
+const: 0 | name: flGlobal | type: float | value: 5.0 | domain: global
+const: 0 | name: er | type: int | value: null | domain: function sum
+const: 0 | name: i | type: int | value: 1,2,3,null,null | domain: main
+const: 0 | name: b | type: bool | value: true,false,false,null,null | domain: main
+const: 0 | name: c | type: char | value: a,b,d,null,null | domain: main
+const: 0 | name: f | type: float | value: 7.4,null,null,null,null | domain: main
+const: 0 | name: s | type: string | value: abc,null,null,null,null | domain: main
+const: 0 | name: mat | type: int | value: null,null,null,null | domain: main
+const: 0 | name: aux | type: char | value: s | domain: main
+const: 1 | name: a | type: int | value: 15 | domain: main
+const: 1 | name: w | type: int | value: 12 | domain: main
+const: 0 | name: j | type: int | value: null | domain: main
+const: 0 | name: k | type: int | value: null | domain: main
+const: 0 | name: y | type: float | value: null | domain: main
+const: 0 | name: g | type: float | value: null | domain: main
+const: 0 | name: arr | type: int | value: 59 | domain: main
+const: 0 | name: apelprod | type: float | value: null | domain: main
+const: 0 | name: apelConstants | type: float | value: null | domain: main
+
+Symbol table for functions
+name: prod | type: FLOAT | domain: class lfac
+param_type: int
+param_type: int
+name: sum | type: INT | domain: global
+param_type: int
+param_type: int
